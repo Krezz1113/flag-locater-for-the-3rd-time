@@ -1,3 +1,3 @@
 scene.setBackgroundImage(img`
-8888888888
+88888888888888888888
 `)
