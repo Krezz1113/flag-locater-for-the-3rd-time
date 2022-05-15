@@ -120,7 +120,7 @@ scene.setBackgroundImage(img`
 8888888888888888888866666666666666666666666666666666000000006666666600000000000000006666666666666666000000006666666600000000000000000000000088888888888888888888
 8888888888888888888866666666666666666666666666666666000000006666666600000000000000006666666666666666000000006666666600000000000000000000000088888888888888888888
 `)
-let character = sprites.create(img`
+let my_sprite = sprites.create(img`
 111111
 111111
 111111
@@ -128,7 +128,7 @@ let character = sprites.create(img`
 111111
 111111
 `)
-let flag = sprites.create(img`
+let flag_sprite = sprites.create(img`
 55555
 55555
 5555
@@ -136,33 +136,32 @@ let flag = sprites.create(img`
 55
 55
 `)
-let charactery = 12
-let characterx = 32
-character.setPosition(80, 60)
+let y = 60
+let x = 80
 let fpos = 113
-flag.setPosition(32, 4)
-flag.setPosition(64, 4)
-flag.setPosition(72, 4)
-flag.setPosition(80, 4)
-flag.setPosition(88, 4)
-flag.setPosition(96, 4)
-flag.setPosition(24, 36)
-flag.setPosition(24, 68)
-flag.setPosition(24, 92)
-flag.setPosition(24, 100)
-flag.setPosition(136, 12)
-flag.setPosition(136, 20)
-flag.setPosition(136, 28)
-flag.setPosition(136, 68)
-flag.setPosition(136, 84)
-flag.setPosition(136, 92)
-flag.setPosition(136, 116)
-flag.setPosition(128, 116)
-flag.setPosition(120, 116)
-flag.setPosition(104, 116)
-flag.setPosition(80, 116)
-flag.setPosition(72, 116)
-flag.setPosition(56, 116)
-character.overlapsWith(flag)
-forever(function on_forever() {
+flag_sprite.setPosition(32, 4)
+flag_sprite.setPosition(64, 4)
+flag_sprite.setPosition(72, 4)
+flag_sprite.setPosition(80, 4)
+flag_sprite.setPosition(88, 4)
+flag_sprite.setPosition(96, 4)
+flag_sprite.setPosition(24, 36)
+flag_sprite.setPosition(24, 68)
+flag_sprite.setPosition(24, 92)
+flag_sprite.setPosition(24, 100)
+flag_sprite.setPosition(136, 12)
+flag_sprite.setPosition(136, 20)
+flag_sprite.setPosition(136, 28)
+flag_sprite.setPosition(136, 68)
+flag_sprite.setPosition(136, 84)
+flag_sprite.setPosition(136, 92)
+flag_sprite.setPosition(136, 116)
+flag_sprite.setPosition(128, 116)
+flag_sprite.setPosition(120, 116)
+flag_sprite.setPosition(104, 116)
+flag_sprite.setPosition(80, 116)
+flag_sprite.setPosition(72, 116)
+flag_sprite.setPosition(56, 116)
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function on_on_overlap(sprite: Sprite, otherSprite: Sprite) {
+    let fpos = randint(1, 23)
 })
