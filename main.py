@@ -224,6 +224,7 @@ if characterx == 24:
     elif charactery == 100:
 
 if characterx == 32:
+
     if charactery == 4:
 
     if charactery == 12:
@@ -242,21 +243,20 @@ if characterx == 32:
 
     if charactery == 108:
 
-if characterx == 64:
+if characterx == 40:
+
     if charactery == 20:
 
-    if charactery == 68:
+    elif charactery == 68:
 
-    if charactery == 76:
+    elif charactery == 76:
 
-    if charactery == 84:
+    elif charactery == 84:
 
-    if charactery == 108:
+    elif charactery == 108:
 
+if characterx == 48:
 
-
-
-if characterx == 72:
     if charactery == 20:
 
     if charactery == 28:
@@ -273,8 +273,7 @@ if characterx == 72:
 
     if charactery == 108:
 
-
-if characterx == 80:
+if characterx == 56:
 
     if charactery == 52:
 
@@ -290,8 +289,7 @@ if characterx == 80:
 
     if charactery == 116:
 
-
-if characterx == 88:
+if characterx == 64:
 
     if charactery == 4:
 
@@ -307,30 +305,28 @@ if characterx == 88:
 
     if charactery == 92:
 
-    if characterx == 96:
+if characterx == 72:
+
+    if charactery == :
+
+    if charactery == :
+
+    if charactery == :
+
+    if charactery == :
+
+    if charactery == :
+
+    if charactery == :
+
+
+if characterx == 80:
+
+
+if characterx == 88:
 
 
 if characterx == 104:
-
-    if charactery == 4:
-
-    if charactery == 20:
-
-    if charactery == 36:
-
-    if charactery == 44:
-
-    if charactery == 52:
-
-    if charactery == 60:
-
-    if charactery == 68:
-
-    if charactery == 76:
-
-    if charactery == 84:
-
-    if charactery == 116:
 
 
 if characterx == 112:
