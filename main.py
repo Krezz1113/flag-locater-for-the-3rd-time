@@ -120,7 +120,8 @@ scene.set_background_image(img("""
 8888888888888888888866666666666666666666666666666666000000006666666600000000000000006666666666666666000000006666666600000000000000000000000088888888888888888888
 8888888888888888888866666666666666666666666666666666000000006666666600000000000000006666666666666666000000006666666600000000000000000000000088888888888888888888
 """))
-sprites.create(img("""
+
+character = sprites.create(img("""
 111111
 111111
 111111
@@ -128,7 +129,8 @@ sprites.create(img("""
 111111
 111111
 """))
-sprites.create(img("""
+
+flag = sprites.create(img("""
 55555
 55555
 5555
@@ -136,18 +138,70 @@ sprites.create(img("""
 55
 55
 """))
-def on_w_pressed():
 
-    controller.W.on_event(ControllerButtonEvent.PRESSED, on_w_pressed)
+fpos = 113
 
-def on_a_pressed():
+flag.set_position(32,4)
 
-    controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
+flag.set_position(64,4)
 
-def on_s_pressed():
+flag.set_position(72,4)
 
-    controller.S.on_event(ControllerButtonEvent.PRESSED, on_s_pressed)
+flag.set_position(80,4)
 
-def on_d_pressed():
+flag.set_position(88,4)
 
-    controller.D.on_event(ControllerButtonEvent.PRESSED, on_d_pressed)
+flag.set_position(96,4)
+
+flag.set_position(24,36)
+
+flag.set_position(24,68)
+
+flag.set_position(24,92)
+
+flag.set_position(24,100)
+
+flag.set_position(136,12)
+
+flag.set_position(136,20)
+
+flag.set_position(136,28)
+
+flag.set_position(136,68)
+
+flag.set_position(136,84)
+
+flag.set_position(136,92)
+
+flag.set_position(136,116)
+
+flag.set_position(128,116)
+
+flag.set_position(120,116)
+
+flag.set_position(104,116)
+
+flag.set_position(80,116)
+
+flag.set_position(72,116)
+
+flag.set_position(56,116)
+def on_forever():
+    def on_w_pressed():
+        character.set_position(110, 100)
+        controller.W.on_event(ControllerButtonEvent.PRESSED, on_w_pressed)
+
+    def on_a_pressed():
+
+        controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
+
+    def on_s_pressed():
+
+        controller.S.on_event(ControllerButtonEvent.PRESSED, on_s_pressed)
+
+    def on_d_pressed():
+
+        controller.D.on_event(ControllerButtonEvent.PRESSED, on_d_pressed)
+
+character.overlaps_with(flag)
+forever(on_forever)
