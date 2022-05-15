@@ -139,29 +139,99 @@ let flag_sprite = sprites.create(img`
 let y = 60
 let x = 80
 let fpos = 113
-flag_sprite.setPosition(32, 4)
-flag_sprite.setPosition(64, 4)
-flag_sprite.setPosition(72, 4)
-flag_sprite.setPosition(80, 4)
-flag_sprite.setPosition(88, 4)
-flag_sprite.setPosition(96, 4)
-flag_sprite.setPosition(24, 36)
-flag_sprite.setPosition(24, 68)
-flag_sprite.setPosition(24, 92)
-flag_sprite.setPosition(24, 100)
-flag_sprite.setPosition(136, 12)
-flag_sprite.setPosition(136, 20)
-flag_sprite.setPosition(136, 28)
-flag_sprite.setPosition(136, 68)
-flag_sprite.setPosition(136, 84)
-flag_sprite.setPosition(136, 92)
-flag_sprite.setPosition(136, 116)
-flag_sprite.setPosition(128, 116)
-flag_sprite.setPosition(120, 116)
-flag_sprite.setPosition(104, 116)
-flag_sprite.setPosition(80, 116)
-flag_sprite.setPosition(72, 116)
 flag_sprite.setPosition(56, 116)
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function on_on_overlap(sprite: Sprite, otherSprite: Sprite) {
     let fpos = randint(1, 23)
+    if (fpos == 1) {
+        flag_sprite.setPosition(32, 4)
+    }
+    
+    if (fpos == 2) {
+        flag_sprite.setPosition(64, 4)
+    }
+    
+    if (fpos == 3) {
+        flag_sprite.setPosition(72, 4)
+    }
+    
+    if (fpos == 4) {
+        flag_sprite.setPosition(80, 4)
+    }
+    
+    if (fpos == 5) {
+        flag_sprite.setPosition(88, 4)
+    }
+    
+    if (fpos == 6) {
+        flag_sprite.setPosition(96, 4)
+    }
+    
+    if (fpos == 7) {
+        flag_sprite.setPosition(136, 12)
+    }
+    
+    if (fpos == 8) {
+        flag_sprite.setPosition(136, 20)
+    }
+    
+    if (fpos == 9) {
+        flag_sprite.setPosition(136, 28)
+    }
+    
+    if (fpos == 10) {
+        flag_sprite.setPosition(136, 68)
+    }
+    
+    if (fpos == 11) {
+        flag_sprite.setPosition(136, 84)
+    }
+    
+    if (fpos == 12) {
+        flag_sprite.setPosition(136, 92)
+    }
+    
+    if (fpos == 13) {
+        flag_sprite.setPosition(136, 116)
+    }
+    
+    if (fpos == 14) {
+        flag_sprite.setPosition(128, 116)
+    }
+    
+    if (fpos == 15) {
+        flag_sprite.setPosition(104, 116)
+    }
+    
+    if (fpos == 16) {
+        flag_sprite.setPosition(80, 116)
+    }
+    
+    if (fpos == 17) {
+        flag_sprite.setPosition(72, 116)
+    }
+    
+    if (fpos == 18) {
+        flag_sprite.setPosition(56, 116)
+    }
+    
+    if (fpos == 19) {
+        flag_sprite.setPosition(32, 44)
+    }
+    
+    if (fpos == 20) {
+        flag_sprite.setPosition(32, 68)
+    }
+    
+    if (fpos == 21) {
+        flag_sprite.setPosition(32, 92)
+    }
+    
+    if (fpos == 22) {
+        flag_sprite.setPosition(32, 100)
+    }
+    
+    if (fpos == 23) {
+        flag_sprite.setPosition(120, 116)
+    }
+    
 })

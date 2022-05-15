@@ -145,50 +145,6 @@ x = 80
 
 fpos = 113
 
-flag_sprite.set_position(32,4)
-
-flag_sprite.set_position(64,4)
-
-flag_sprite.set_position(72,4)
-
-flag_sprite.set_position(80,4)
-
-flag_sprite.set_position(88,4)
-
-flag_sprite.set_position(96,4)
-
-flag_sprite.set_position(24,36)
-
-flag_sprite.set_position(24,68)
-
-flag_sprite.set_position(24,92)
-
-flag_sprite.set_position(24,100)
-
-flag_sprite.set_position(136,12)
-
-flag_sprite.set_position(136,20)
-
-flag_sprite.set_position(136,28)
-
-flag_sprite.set_position(136,68)
-
-flag_sprite.set_position(136,84)
-
-flag_sprite.set_position(136,92)
-
-flag_sprite.set_position(136,116)
-
-flag_sprite.set_position(128,116)
-
-flag_sprite.set_position(120,116)
-
-flag_sprite.set_position(104,116)
-
-flag_sprite.set_position(80,116)
-
-flag_sprite.set_position(72,116)
-
 flag_sprite.set_position(56,116)
 
 def on_up_pressed():
@@ -212,4 +168,50 @@ def on_d_pressed():
 
 def on_on_overlap(sprite, otherSprite):
     fpos = randint(1,23)
+    if fpos == 1:
+        flag_sprite.set_position(32,4)
+    if fpos == 2:
+        flag_sprite.set_position(64,4)
+    if fpos == 3:
+        flag_sprite.set_position(72,4)
+    if fpos == 4:
+        flag_sprite.set_position(80,4)
+    if fpos == 5:
+        flag_sprite.set_position(88,4)
+    if fpos == 6:
+        flag_sprite.set_position(96,4)
+    if fpos == 7:
+        flag_sprite.set_position(136,12)
+    if fpos == 8:
+        flag_sprite.set_position(136,20)
+    if fpos == 9:
+        flag_sprite.set_position(136,28)
+    if fpos == 10:
+        flag_sprite.set_position(136,68)
+    if fpos == 11:
+        flag_sprite.set_position(136,84)
+    if fpos == 12:
+        flag_sprite.set_position(136,92)
+    if fpos == 13:
+        flag_sprite.set_position(136,116)
+    if fpos == 14:
+        flag_sprite.set_position(128,116)
+    if fpos == 15:
+        flag_sprite.set_position(104,116)
+    if fpos == 16:
+        flag_sprite.set_position(80,116)
+    if fpos == 17:
+        flag_sprite.set_position(72,116)
+    if fpos == 18:
+        flag_sprite.set_position(56,116)
+    if fpos == 19:
+        flag_sprite.set_position(32,44)
+    if fpos == 20:
+        flag_sprite.set_position(32,68)
+    if fpos == 21:
+        flag_sprite.set_position(32,92)
+    if fpos == 22:
+        flag_sprite.set_position(32,100)
+    if fpos == 23:
+        flag_sprite.set_position(120,116)
 sprites.on_overlap(SpriteKind.player, SpriteKind.player, on_on_overlap)
