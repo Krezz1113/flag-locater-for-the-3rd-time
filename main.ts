@@ -136,6 +136,9 @@ let flag = sprites.create(img`
 55
 55
 `)
+let charactery = 60
+let characterx = 80
+character.setPosition(80, 60)
 let fpos = 113
 flag.setPosition(32, 4)
 flag.setPosition(64, 4)

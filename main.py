@@ -139,6 +139,12 @@ flag = sprites.create(img("""
 55
 """))
 
+charactery = 60
+
+characterx = 80
+
+character.set_position(80,60)
+
 fpos = 113
 
 flag.set_position(32,4)
@@ -186,22 +192,155 @@ flag.set_position(80,116)
 flag.set_position(72,116)
 
 flag.set_position(56,116)
+
 def on_forever():
     def on_w_pressed():
-        character.set_position(110, 100)
+        charactery += -8
+        
         controller.W.on_event(ControllerButtonEvent.PRESSED, on_w_pressed)
 
     def on_a_pressed():
-
+        characterx += -8
         controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
 
     def on_s_pressed():
-
+        charactery += 8
         controller.S.on_event(ControllerButtonEvent.PRESSED, on_s_pressed)
 
     def on_d_pressed():
-
+        characterx += 8
         controller.D.on_event(ControllerButtonEvent.PRESSED, on_d_pressed)
 
 character.overlaps_with(flag)
 forever(on_forever)
+
+if characterx == 24: 
+    if charactery == 36:
+        
+    elif charactery == 68:
+
+    elif charactery == 92:
+
+    elif charactery == 100:
+
+if characterx == 32:
+    if charactery == 4:
+
+    if charactery == 12:
+
+    if charactery == 20:
+
+    if charactery == 28:
+
+    if charactery == 36:
+
+    if charactery == 60:
+
+    if charactery == 68:
+
+    if charactery == 100:
+
+    if charactery == 108:
+
+if characterx == 64:
+    if charactery == 20:
+
+    if charactery == 68:
+
+    if charactery == 76:
+
+    if charactery == 84:
+
+    if charactery == 108:
+
+
+
+
+if characterx == 72:
+    if charactery == 20:
+
+    if charactery == 28:
+
+    if charactery == 36:
+
+    if charactery == 44:
+
+    if charactery == 52:
+
+    if charactery == 84:
+
+    if charactery == 92:
+
+    if charactery == 108:
+
+
+if characterx == 80:
+
+    if charactery == 52:
+
+    if charactery == 60:
+
+    if charactery == 68:
+
+    if charactery == 92:
+
+    if charactery == 100:
+
+    if charactery == 108:
+
+    if charactery == 116:
+
+
+if characterx == 88:
+
+    if charactery == 4:
+
+    if charactery == 20:
+
+    if charactery == 28:
+
+    if charactery == 36:
+
+    if charactery == 60:
+
+    if charactery == 84:
+
+    if charactery == 92:
+
+    if characterx == 96:
+
+
+if characterx == 104:
+
+    if charactery == 4:
+
+    if charactery == 20:
+
+    if charactery == 36:
+
+    if charactery == 44:
+
+    if charactery == 52:
+
+    if charactery == 60:
+
+    if charactery == 68:
+
+    if charactery == 76:
+
+    if charactery == 84:
+
+    if charactery == 116:
+
+
+if characterx == 112:
+
+
+if characterx == 120:
+
+
+if characterx == 128:
+    
+
+if characterx == 136:
+
