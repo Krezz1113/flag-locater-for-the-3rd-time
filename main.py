@@ -139,9 +139,9 @@ flag = sprites.create(img("""
 55
 """))
 
-charactery = 60
+charactery = 12
 
-characterx = 80
+characterx = 32
 
 character.set_position(80,60)
 
@@ -195,7 +195,10 @@ flag.set_position(56,116)
 
 def on_forever():
     def on_w_pressed():
-        charactery += -8
+        if charactery == 12:
+            if characterx == 32:
+                character.set_position(32,4)
+                charactery += -8
         
         controller.W.on_event(ControllerButtonEvent.PRESSED, on_w_pressed)
 
@@ -214,201 +217,4 @@ def on_forever():
 character.overlaps_with(flag)
 forever(on_forever)
 
-if characterx == 24: 
-    if charactery == 36:
-        
-    elif charactery == 68:
-
-    elif charactery == 92:
-
-    elif charactery == 100:
-
-
-
-if characterx == 32:
-
-    if charactery == 4:
-
-    elif charactery == 12:
-
-    elif charactery == 20:
-
-    elif charactery == 28:
-
-    elif charactery == 36:
-
-    elif charactery == 60:
-
-    elif charactery == 68:
-
-    elif charactery == 100:
-
-    elif charactery == 108:
-
-if characterx == 40:
-
-    if charactery == 20:
-
-    elif charactery == 68:
-
-    elif charactery == 76:
-
-    elif charactery == 84:
-
-    elif charactery == 108:
-
-if characterx == 48:
-
-    if charactery == 20:
-
-    elif charactery == 28:
-
-    elif charactery == 36:
-
-    elif charactery == 44:
-
-    elif charactery == 52:
-
-    elif charactery == 84:
-
-    elif charactery == 92:
-
-    elif charactery == 108:
-
-if characterx == 56:
-
-    if charactery == 52:
-
-    elif charactery == 60:
-
-    elif charactery == 68:
-
-    elif charactery == 92:
-
-    elif charactery == 100:
-
-    elif charactery == 108:
-
-    elif charactery == 116:
-
-if characterx == 64:
-
-    if charactery == 4:
-
-    elif charactery == 20:
-
-    elif charactery == 28:
-
-    elif charactery == 36:
-
-    elif charactery == 60:
-
-    elif charactery == 84:
-
-    elif charactery == 92:
-
-if characterx == 72:
-
-    if charactery == 4:
-
-    elif charactery == 20:
-
-    elif charactery == 36:
-
-    elif charactery == 44:
-
-    elif charactery == 52:
-
-    elif charactery == 60:
-
-    elif charactery == 68:
-
-    elif charactery == 76:
-
-    elif charactery == 84:
-
-    elif charactery == 116:
-
-
-if characterx == 80:
-
-    elif charactery == 4:
-
-    elif charactery == 20:
-
-    elif charactery == 52:
-
-    elif charactery == 60:
-
-    elif charactery == 68:
-
-    elif charactery == 108:
-
-    elif charactery == 116:
-
-
-if characterx == 88:
-
-    elif charactery == 4:
-
-    elif charactery == 36:
-
-    elif charactery == 44:
-
-    elif charactery == 52:
-
-    elif charactery == 60:
-
-    elif charactery == 68:
-
-    elif charactery == 92:
-
-    elif charactery == 100:
-
-    elif charactery == 108:
-
-if characterx == 96:
-
-    elif charactery == 4:
-    
-    elif charactery == 12:
-
-    elif charactery == 36:
-
-    elif charactery == 68:
-
-    elif charactery == 76:
-
-    elif charactery == 92:
-
-if characterx == 104:
-
-    elif charactery == :
-
-    elif charactery == :
-
-    elif charactery == :
-
-    elif charactery == :
-
-    elif charactery == :
-
-    elif charactery == :
-
-    elif charactery == :
-
-    elif charactery == :
-
-    elif charactery == :
-
-if characterx == 112:
-
-
-if characterx == 120:
-
-
-if characterx == 128:
-    
-
-if characterx == 136:
 
