@@ -223,25 +223,27 @@ if characterx == 24:
 
     elif charactery == 100:
 
+
+
 if characterx == 32:
 
     if charactery == 4:
 
-    if charactery == 12:
+    elif charactery == 12:
 
-    if charactery == 20:
+    elif charactery == 20:
 
-    if charactery == 28:
+    elif charactery == 28:
 
-    if charactery == 36:
+    elif charactery == 36:
 
-    if charactery == 60:
+    elif charactery == 60:
 
-    if charactery == 68:
+    elif charactery == 68:
 
-    if charactery == 100:
+    elif charactery == 100:
 
-    if charactery == 108:
+    elif charactery == 108:
 
 if characterx == 40:
 
@@ -259,75 +261,145 @@ if characterx == 48:
 
     if charactery == 20:
 
-    if charactery == 28:
+    elif charactery == 28:
 
-    if charactery == 36:
+    elif charactery == 36:
 
-    if charactery == 44:
+    elif charactery == 44:
 
-    if charactery == 52:
+    elif charactery == 52:
 
-    if charactery == 84:
+    elif charactery == 84:
 
-    if charactery == 92:
+    elif charactery == 92:
 
-    if charactery == 108:
+    elif charactery == 108:
 
 if characterx == 56:
 
     if charactery == 52:
 
-    if charactery == 60:
+    elif charactery == 60:
 
-    if charactery == 68:
+    elif charactery == 68:
 
-    if charactery == 92:
+    elif charactery == 92:
 
-    if charactery == 100:
+    elif charactery == 100:
 
-    if charactery == 108:
+    elif charactery == 108:
 
-    if charactery == 116:
+    elif charactery == 116:
 
 if characterx == 64:
 
     if charactery == 4:
 
-    if charactery == 20:
+    elif charactery == 20:
 
-    if charactery == 28:
+    elif charactery == 28:
 
-    if charactery == 36:
+    elif charactery == 36:
 
-    if charactery == 60:
+    elif charactery == 60:
 
-    if charactery == 84:
+    elif charactery == 84:
 
-    if charactery == 92:
+    elif charactery == 92:
 
 if characterx == 72:
 
-    if charactery == :
+    if charactery == 4:
 
-    if charactery == :
+    elif charactery == 20:
 
-    if charactery == :
+    elif charactery == 36:
 
-    if charactery == :
+    elif charactery == 44:
 
-    if charactery == :
+    elif charactery == 52:
 
-    if charactery == :
+    elif charactery == 60:
+
+    elif charactery == 68:
+
+    elif charactery == 76:
+
+    elif charactery == 84:
+
+    elif charactery == 116:
 
 
 if characterx == 80:
 
+    elif charactery == 4:
+
+    elif charactery == 20:
+
+    elif charactery == 52:
+
+    elif charactery == 60:
+
+    elif charactery == 68:
+
+    elif charactery == 108:
+
+    elif charactery == 116:
+
 
 if characterx == 88:
 
+    elif charactery == 4:
+
+    elif charactery == 36:
+
+    elif charactery == 44:
+
+    elif charactery == 52:
+
+    elif charactery == 60:
+
+    elif charactery == 68:
+
+    elif charactery == 92:
+
+    elif charactery == 100:
+
+    elif charactery == 108:
+
+if characterx == 96:
+
+    elif charactery == 4:
+    
+    elif charactery == 12:
+
+    elif charactery == 36:
+
+    elif charactery == 68:
+
+    elif charactery == 76:
+
+    elif charactery == 92:
 
 if characterx == 104:
 
+    elif charactery == :
+
+    elif charactery == :
+
+    elif charactery == :
+
+    elif charactery == :
+
+    elif charactery == :
+
+    elif charactery == :
+
+    elif charactery == :
+
+    elif charactery == :
+
+    elif charactery == :
 
 if characterx == 112:
 
